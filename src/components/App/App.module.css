@@ -1,0 +1,20 @@
+
+
+.container {
+  width: 350px;
+  margin: 0 auto;
+  margin-top: 20px;
+} 
+
+.title{
+  margin-bottom: 16px;
+    font-weight: 900;
+    text-align: center;
+    text-transform: uppercase;
+}
+
+
+/* .inputForm {
+   width: 400px;
+} */
+

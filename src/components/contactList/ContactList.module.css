@@ -1,0 +1,35 @@
+.itemContainer {
+  margin-left: 8px;
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+
+.item {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.item:not(:last-child) {
+  margin-bottom: 16px;
+}
+
+.text {
+  font-size: 14px;
+  font-weight: 500;
+  align-items: center;
+}
+
+.button {
+  padding: 4px 8px;
+  border-radius: 5px;
+  cursor: pointer;
+  border: none;
+}
+
+.button:hover,
+.button:focus {
+  background-color: rgb(128, 128, 128, 0.8);
+  color: #fff;
+}

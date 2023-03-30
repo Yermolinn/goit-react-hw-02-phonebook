@@ -1,0 +1,31 @@
+.filter {
+    padding: 0 20px 20px 20px;
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+
+    justify-content: center;
+}
+
+.label{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-weight: 400;
+    font-size: 14px;
+    margin-bottom: 10px;
+    font-style: italic;
+}
+
+.text {
+    margin-bottom: 10px;
+}
+
+.input {
+        width: 286px;
+        padding: 5px 10px;
+        border: 1px solid black;
+        border-radius: 4px;
+        justify-content: center;
+
+}
